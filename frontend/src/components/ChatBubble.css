@@ -1,0 +1,113 @@
+/*-- CONTAINER LAYOUT --- */
+.bubble-row {
+  display: flex;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.bubble-row.right {
+  justify-content: flex-end;
+}
+
+.bubble-row.left {
+  justify-content: flex-start;
+}
+
+/* --- AVATARS --- */
+.avatar-container {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.avatar-container.bot {
+  background: rgba(15, 23, 42, 0.8); /* Dark background */
+  border: 1px solid rgba(6, 182, 212, 0.3); /* Cyan border */
+  margin-right: 12px;
+}
+
+.avatar-container.user {
+  background: linear-gradient(135deg, #cbd5e1, #94a3b8);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-left: 12px;
+}
+
+/* --- GLASSMORPHIC BUBBLES --- */
+.bubble {
+  max-width: 75%;
+  padding: 1rem 1.5rem;
+  border-radius: 1.25rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  position: relative;
+
+  /* GLASS EFFECT CORE */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Bot Bubble Style */
+.bubble.bot {
+  /* Semi-transparent dark slate */
+  background: rgba(30, 41, 59, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #e2e8f0;
+  border-top-left-radius: 4px; /* Tiny "tail" effect */
+}
+
+/* User Bubble Style */
+.bubble.user {
+  /* Semi-transparent Cyan/Blue Gradient */
+  background: linear-gradient(
+    135deg,
+    rgba(6, 182, 212, 0.7),
+    rgba(59, 130, 246, 0.7)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  border-top-right-radius: 4px; /* Tiny "tail" effect */
+}
+
+/* Time Stamp */
+.time {
+  font-size: 0.7rem;
+  opacity: 0.7;
+  margin-top: 0.5rem;
+  text-align: right;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+/* --- MARKDOWN CONTENT FIXES --- */
+/* Ensures lists and paragraphs inside the bubble look clean */
+.markdown-content p {
+  margin: 0 0 0.5rem 0;
+}
+.markdown-content p:last-child {
+  margin-bottom: 0;
+}
+.markdown-content ul,
+.markdown-content ol {
+  margin: 0.5rem 0;
+  padding-left: 1.2rem;
+}
+.markdown-content li {
+  margin-bottom: 0.25rem;
+}
+.markdown-content strong {
+  font-weight: 700;
+  color: inherit;
+}
+.markdown-content code {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.85em;
+}

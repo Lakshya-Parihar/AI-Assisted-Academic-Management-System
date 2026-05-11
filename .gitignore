@@ -1,0 +1,9 @@
+node_modules/
+vendor/
+.env
+dist/
+build/
+*.zip
+faculty_data_zips/
+student_data_zips/
+TextFiles/
