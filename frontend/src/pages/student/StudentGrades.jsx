@@ -93,14 +93,16 @@ export default function StudentGrades() {
         <h1
           style={{
             fontSize: "2.5rem",
-            fontWeight: 900,
+            fontWeight: 700,
             color: theme.text,
-            letterSpacing: "0.05em",
+            letterSpacing: "0.04em",
             textTransform: "uppercase",
             marginBottom: "0.5rem",
+            fontFamily:
+                "'Inter', 'Plus Jakarta Sans', -apple-system, sans-serif",
           }}
         >
-          Quiz & Performance Portal
+          My Grades
         </h1>
         <p style={{ color: theme.subtext, fontSize: "1rem" }}>
           Manage your active assessments and view high-fidelity academic
