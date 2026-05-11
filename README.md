@@ -140,7 +140,7 @@ npm run dev
 
 # Screenshots
 
- -------------------------------------------------------------------Admin--------------------------------------------------------------------------------
+ ----------------------------------------------------------------------Admin--------------------------------------------------------------------------------
   
 <img width="1908" height="937" alt="Screenshot 2026-04-24 005054" src="https://github.com/user-attachments/assets/ff349db0-f6a9-4dbd-bea4-9d4e5ad40cee" />
 <img width="1897" height="941" alt="Screenshot 2026-04-24 005108" src="https://github.com/user-attachments/assets/6f41d45c-3f07-4d35-9eb9-18d9eb81c8c3" />
@@ -153,7 +153,7 @@ npm run dev
 <img width="1885" height="929" alt="Screenshot 2026-04-24 015328" src="https://github.com/user-attachments/assets/f8562bed-6c5c-41a9-93af-9204b558c950" />
 
 
---------------------------------------------------------------------Faculty------------------------------------------------------------------------------
+-----------------------------------------------------------------------Faculty------------------------------------------------------------------------------
   
 <img width="1895" height="936" alt="Screenshot 2026-05-11 210311" src="https://github.com/user-attachments/assets/e2e54012-938e-46ea-be7e-7a6f9990922a" />
 <img width="1885" height="937" alt="Screenshot 2026-05-11 210322" src="https://github.com/user-attachments/assets/357ef514-0244-4412-b578-bcd254cead19" />
@@ -169,7 +169,7 @@ npm run dev
 <img width="1833" height="928" alt="Screenshot 2026-04-30 172920" src="https://github.com/user-attachments/assets/eea4a053-162e-4766-97c8-b20150c8cc41" />
 
 
---------------------------------------------------------------------Student------------------------------------------------------------------------------
+-----------------------------------------------------------------------Student------------------------------------------------------------------------------
   
 <img width="1886" height="925" alt="Screenshot 2026-04-30 170913" src="https://github.com/user-attachments/assets/eba28852-0fa7-49b5-93d3-d806d8499b63" />
 <img width="1885" height="935" alt="Screenshot 2026-04-30 170958" src="https://github.com/user-attachments/assets/fcc98e6f-aa56-448a-9055-128404ef0384" />
