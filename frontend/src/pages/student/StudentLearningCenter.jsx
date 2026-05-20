@@ -157,7 +157,6 @@ export default function StudentLearningCenter() {
 
   // --- AI Integration (Logic untouched)[cite: 6] ---
   const generateAIContent = async (promptType) => {
-    const API_KEY = "AIzaSyDGnLbP4rE_nBk0o3kOK3fkqQjCrekY3kY";
     // ... API Logic from source preserved ...
     return new Promise((r) =>
       setTimeout(

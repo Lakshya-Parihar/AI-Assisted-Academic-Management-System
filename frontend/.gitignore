@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+node_modules/
+vendor/
+.env
+dist/
+build/
+*.zip
+faculty_data_zips/
+student_data_zips/
+TextFiles/
+desktop.ini
+=======
 # Logs
 logs
 *.log
@@ -22,3 +34,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+>>>>>>> a946d07 (Removed API)
