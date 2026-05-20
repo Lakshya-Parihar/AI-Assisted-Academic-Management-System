@@ -2,7 +2,6 @@ import db from "../config/db.js";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // Using the highly stable 1.5-flash model to prevent quota limits!
-const genAI = new GoogleGenerativeAI("AIzaSyAfOpzZIrnHO2gOEJbMm0Tg1FGnEyKORRA");
 
 const calculateGrade = (score, total) => {
   const percentage = (score / total) * 100;
